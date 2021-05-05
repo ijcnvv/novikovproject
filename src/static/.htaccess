@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^www.novikovproject.ru$ [NC]
+  RewriteRule ^(.*)$ https://novikovproject.ru/$1 [R=301,L]
+</IfModule>
