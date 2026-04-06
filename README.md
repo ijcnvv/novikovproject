@@ -1,1 +1,3 @@
 # novikovproject
+
+Personal static website
